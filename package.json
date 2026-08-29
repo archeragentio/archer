@@ -1,0 +1,28 @@
+{
+  "name": "@archeragentio/archer",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Public types and examples for Archer Agent. Intent in, inspectable preview out. Placement stays behind human approval.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archeragentio/archer.git"
+  },
+  "homepage": "https://archeragent.ai",
+  "bugs": {
+    "url": "https://github.com/archeragentio/archer/issues"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "example:preview": "node --experimental-strip-types examples/preview.ts"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
